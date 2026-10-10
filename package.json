@@ -1,0 +1,14 @@
+{
+  "name": "menuya-llm-router",
+  "version": "1.0.0",
+  "description": "Router multi-modelo con failover para agentes MenúYa CR",
+  "scripts": {
+    "start": "free-llm-api-provider start --port $PORT"
+  },
+  "dependencies": {
+    "free-llm-api-provider": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
